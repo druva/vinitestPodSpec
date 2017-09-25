@@ -10,6 +10,6 @@ use_frameworks!
 target 'ViniTestPod' do
     #pod 'dSwiftUtils',:path => '/Volumes/DriveA/Code/Personal/dSwiftUtils'
     #pod 'dSwiftUtils','>= 0.2.5'
-    pod 'ViniTestPod',:path => './'
+    pod 'dSwiftUtils',:path => './'
     #pod 'SwiftUtils'
 end
