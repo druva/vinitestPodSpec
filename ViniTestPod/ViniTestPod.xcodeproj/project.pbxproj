@@ -14,6 +14,7 @@
 		74AD69A91F7883FF005C1A29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74AD69A71F7883FF005C1A29 /* LaunchScreen.storyboard */; };
 		74AD69B41F7883FF005C1A29 /* ViniTestPodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AD69B31F7883FF005C1A29 /* ViniTestPodTests.swift */; };
 		74AD69BF1F7883FF005C1A29 /* ViniTestPodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AD69BE1F7883FF005C1A29 /* ViniTestPodUITests.swift */; };
+		74AD69CD1F788ED8005C1A29 /* ViniFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AD69CC1F788ED8005C1A29 /* ViniFont.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		74AD69BA1F7883FF005C1A29 /* ViniTestPodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViniTestPodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		74AD69BE1F7883FF005C1A29 /* ViniTestPodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViniTestPodUITests.swift; sourceTree = "<group>"; };
 		74AD69C01F7883FF005C1A29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74AD69CC1F788ED8005C1A29 /* ViniFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViniFont.swift; path = Classes/ViniFont.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				74AD699E1F7883FF005C1A29 /* AppDelegate.swift */,
 				74AD69A01F7883FF005C1A29 /* ViewController.swift */,
 				74AD69A21F7883FF005C1A29 /* Main.storyboard */,
+				74AD69CC1F788ED8005C1A29 /* ViniFont.swift */,
 				74AD69A51F7883FF005C1A29 /* Assets.xcassets */,
 				74AD69A71F7883FF005C1A29 /* LaunchScreen.storyboard */,
 				74AD69AA1F7883FF005C1A29 /* Info.plist */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				74AD69A11F7883FF005C1A29 /* ViewController.swift in Sources */,
+				74AD69CD1F788ED8005C1A29 /* ViniFont.swift in Sources */,
 				74AD699F1F7883FF005C1A29 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
