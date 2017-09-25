@@ -28,9 +28,9 @@ Pod::Spec.new do |s|
   s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.0' }
   s.ios.deployment_target = '11.0'
 
-  s.source_files = 'vinitestPodSpec/ViniTestPod/**/*'
+  s.source_files = 'vinitestPodSpec/ViniTestPod/ViniTestPod/**/*'
   s.resource_bundles = {
-    'dSwiftUtils' => ['dSwiftUtils/Assets/*.png']
+    'dSwiftUtils' => ['vinitestPodSpec/ViniTestPod/ViniTestPod/Assets/*.png']
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
